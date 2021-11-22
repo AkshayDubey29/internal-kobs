@@ -1,0 +1,12 @@
+clusters:
+  providers:
+    - provider: kubeconfig
+      kubeconfig:
+        path: ${HOME}/.kube/config
+
+plugins:
+  helloworld:
+    name: helloworld
+    displayName: Hello World
+    description: This is an example plugin within the kobsio/app repository.
+    helloWorldName: Jane Doe

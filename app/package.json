@@ -1,0 +1,62 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:15220",
+  "dependencies": {
+    "@kobsio/plugin-applications": "^0.7.0",
+    "@kobsio/plugin-core": "^0.7.0",
+    "@kobsio/plugin-dashboards": "^0.7.0",
+    "@kobsio/plugin-elasticsearch": "^0.7.0",
+    "@kobsio/plugin-flux": "^0.7.0",
+    "@kobsio/plugin-grafana": "^0.7.0",
+    "@kobsio/plugin-harbor": "^0.7.0",
+    "@kobsio/plugin-istio": "^0.7.0",
+    "@kobsio/plugin-jaeger": "^0.7.0",
+    "@kobsio/plugin-kiali": "^0.7.0",
+    "@kobsio/plugin-klogs": "^0.7.0",
+    "@kobsio/plugin-markdown": "^0.7.0",
+    "@kobsio/plugin-opsgenie": "^0.7.0",
+    "@kobsio/plugin-prometheus": "^0.7.0",
+    "@kobsio/plugin-resources": "^0.7.0",
+    "@kobsio/plugin-rss": "^0.7.0",
+    "@kobsio/plugin-sonarqube": "^0.7.0",
+    "@kobsio/plugin-sql": "^0.7.0",
+    "@kobsio/plugin-teams": "^0.7.0",
+    "@kobsio/plugin-users": "^0.7.0",
+    "@patternfly/react-core": "^4.135.0",
+    "@types/node": "^16.4.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-query": "^3.19.0",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.1.2",
+    "md5": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
